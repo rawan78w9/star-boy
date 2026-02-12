@@ -1,17 +1,17 @@
 #!/bin/bash
 clear
-echo "Installing gh tool..."
+echo "Installing Jatiin tool..."
 sleep 1
 
-chmod +x gh
+chmod +x safe
 
 if [ -d "$PREFIX/bin" ]; then
-  mv gh $PREFIX/bin/
+  mv safe $PREFIX/bin/
 else
   echo "PREFIX/bin not found"
   exit 1
 fi
 
 echo ""
-echo "Install complete ✅"
-echo "Now type: gh"
+echo "Install Complete Biitch✅"
+echo "Now type: safe"
